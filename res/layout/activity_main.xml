@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context="com.phodev.piclayer.MainActivity"
+    tools:ignore="MergeRootFrame" >
+    
+       <ImageView
+       android:layout_width="100dp"
+       android:layout_height="100dp"
+       android:id="@+id/result"
+       />
+    <com.phodev.piclayer.core.LayerView 
+        android:id="@+id/layer_view"
+        android:layout_gravity="center"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        />
+
+</LinearLayout>
